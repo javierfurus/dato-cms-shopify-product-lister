@@ -1,10 +1,10 @@
 {
   "name": "datocms-plugin-shopify-product-lister",
-  "homepage": "https://github.com/datocms/plugins/tree/master/shopify-product#readme",
+  "homepage": "https://github.com/javierfurus/dato-cms-shopify-product-lister#readme",
   "description": "A plugin that allows users to search and select Shopify products - updated to support latest Shopify changes",
   "author": "DatoCMS <support@datocms.com>",
   "license": "ISC",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "datocms",
     "datocms-plugin",
