@@ -2,7 +2,7 @@
 
 A plugin that allows users to search and select Shopify products, using the latest version of Shopify's GraphQL endpoint.
 
-This is based on: https://raw.githubusercontent.com/datocms/plugins/master/shopify-product
+Based on the following project: https://github.com/datocms/plugins/tree/master/shopify-product#readme
 
 ## Configuration
 
