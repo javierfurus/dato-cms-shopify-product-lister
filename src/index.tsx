@@ -6,7 +6,7 @@ import FieldExtension from './entrypoints/FieldExtension';
 import 'datocms-react-ui/styles.css';
 import { isValidConfig, normalizeConfig } from './types';
 
-const FIELD_EXTENSION_ID = 'shopifyProduct';
+const FIELD_EXTENSION_ID = 'shopifyProductLister';
 
 connect({
   async onBoot(ctx: OnBootCtx) {

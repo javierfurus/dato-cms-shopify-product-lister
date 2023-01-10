@@ -98,7 +98,7 @@ export default function ConfigScreen({ ctx }: Props) {
                   <TextField
                     id="autoApplyToFieldsWithApiKey"
                     label="Auto-apply this plugin to all Single-line fields fields matching the following API identifier:"
-                    hint="A regular expression can be used"
+                    hint="A regular expression can be used. The editor is named Shopify Product Lister if you do not wish to auto apply."
                     placeholder="shopify_product_id"
                     error={error}
                     textInputProps={{ monospaced: true }}
