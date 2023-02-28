@@ -15,7 +15,9 @@ const currentFetchProductsMatchingSelector = (state: State) =>
 
 export default function BrowseProductsModal({ ctx }: { ctx: RenderModalCtx }) {
   const performSearch = useStore(currentFetchProductsMatchingSelector);
-  const { query, status, products } = useStore(currentSearchSelector);
+  const store = useStore(currentSearchSelector);
+  const products = store.products ? store.products.filter((product)=> !!product) : [];
+  const {status, query} = store;
 
   const [sku, setSku] = useState<string>('');
 
