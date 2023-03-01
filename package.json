@@ -4,7 +4,7 @@
   "description": "A plugin that allows users to search and select Shopify products - updated to support latest Shopify changes",
   "author": "Javier Furus <javier.furus@adroitgroup.io>",
   "license": "ISC",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "keywords": [
     "datocms",
     "datocms-plugin",
